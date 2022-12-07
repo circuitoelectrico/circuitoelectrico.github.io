@@ -4,7 +4,7 @@ body {
     ;
 
     color: white;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
     letter-spacing: 2px;
 }
 
@@ -18,17 +18,37 @@ height: auto;
 max-width: 200px;
 }
 
-.profile-name {
-        text-align: center;
-
-        padding: 30px;
-        font-size: 28px;
+.description {
+        text-align: justify;
+margin-top: 20px;
+   
+    padding: 20px;
+    width: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        font-size: 16;
     }
+
+        .subtitle {
+            text-align: center;
+            margin-top: 20px;
+    
+            padding: 2
+            0px;
+            width: 500px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          
+            font-size: 16;
+        }
 
     .links {
         text-align: center;
         margin-top: 20px;
-        border: 1px solid rgb(235, 23, 211);
+        border: 1px solid rgb(252, 0, 252);
         border-width: 1px;
         padding: 20px;
 
@@ -50,8 +70,9 @@ max-width: 200px;
     }
 
     a:hover {
-        color: black;
-        background-color: white;
+        
+        color: whitesmoke;
+        background-color: rgb(252, 0, 252);
     }
 
     Footer © 2022 GitHub,
