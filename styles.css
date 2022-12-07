@@ -19,30 +19,28 @@ max-width: 200px;
 }
 
 .description {
-        text-align: justify;
-margin-top: 20px;
+    text-align: justify;
+    margin-top: 20px;
    
     padding: 20px;
     width: 500px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 10px;
-        font-size: 16;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 16;
     }
 
-        .subtitle {
-            text-align: center;
-            margin-top: 20px;
+.subtitle {
+    text-align: center;
+    margin-top: 20px;
     
-            padding: 2
-            0px;
-            width: 500px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-          
-            font-size: 16;
+    padding: 20px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16;
         }
 
     .links {
