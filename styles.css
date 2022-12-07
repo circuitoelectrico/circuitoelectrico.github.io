@@ -1,21 +1,21 @@
 
 body {
-    background-color: black
-    ;
-
+    background-color: black;
     color: white;
     font-family: "IBM Plex Sans Condensed", sans-serif;
     letter-spacing: 2px;
+    min-height: 100vh;
+
 }
 
 .profile-picture {
 display: block;
 margin-left: auto;
 margin-right: auto;
-
 margin-top: 10%;
 height: auto;
 max-width: 200px;
+;
 }
 
 .description {
@@ -43,6 +43,7 @@ max-width: 200px;
     margin-left: auto;
     margin-right: auto;
     font-size: 16;
+    text-transform: uppercase;
         }
 
     .links {
@@ -71,7 +72,7 @@ max-width: 200px;
 
     a:hover {
         
-        color: whitesmoke;
+        color: black;
         background-color: rgb(252, 0, 252);
     }
 
