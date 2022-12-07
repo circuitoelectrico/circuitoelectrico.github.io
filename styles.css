@@ -19,6 +19,7 @@ max-width: 200px;
 }
 
 .description {
+    display: block;
     text-align: justify;
     margin-top: 20px;
    
@@ -32,6 +33,7 @@ max-width: 200px;
     }
 
 .subtitle {
+    display: block;
     text-align: center;
     margin-top: 20px;
     
