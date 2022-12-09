@@ -1,10 +1,13 @@
-
+html {box-sizing: border-box;
+font-size: 100%;
+}
 body {
     background-color: black;
     color: white;
     font-family: "IBM Plex Sans Condensed", sans-serif;
     letter-spacing: 2px;
     min-height: 100vh;
+
 
 }
 
@@ -17,22 +20,45 @@ height: auto;
 max-width: 200px;
 ;
 }
-
-
-.h2 {
+.description {
     display: block;
-    text-align: center;
+    text-align: justify;
     margin-top: 20px;
-    
     padding: 20px;
     width: 310px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px;
+    font-size: 16
+;
+}
+
+.h2 {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 16;
     text-transform: uppercase;
-
+font-weight: bold;
         }
+
+.h3 {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 1px;
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12;}
+    
+
+
 .flyer {
     display: block;
     margin-left: auto;
@@ -47,7 +73,7 @@ max-width: 200px;
         text-align: center;
         margin-top: 20px;
         border: 1px solid rgb(252, 0, 252);
-        border-width: 1px;
+        border-width: 2px;
         padding: 20px;
 
         width: 290px;
