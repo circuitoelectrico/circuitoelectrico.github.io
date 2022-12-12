@@ -43,15 +43,6 @@ h3 {
     margin-right: auto;
     font-size: 12;}
 
-    h2 {
-    display: block;
-    padding: 20px;
-    width: 310px;
-    margin: 0 auto 15px auto;
-    font-size: 16;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-        }
     
 h4 {
     display: block;
@@ -62,35 +53,20 @@ h4 {
     text-transform: uppercase;
     letter-spacing: 4px;
 }
-.divflyer {
-    width: 250px;
-    height: 250px;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;}
-    
-    
+
     
 
 .flyer {
 
     width: 100%;
     height: 100%;
-    max-width: 250px;
+    max-width: 200px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    transition: 0.5s;
-    object-fit:cover;
-}
-
-.flyer:hover{
     
-    transform: scale(1.02); 
 }
-
 
 
 a {
