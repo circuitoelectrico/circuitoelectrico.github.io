@@ -7,6 +7,7 @@ body {
     font-family: "IBM Plex Sans Condensed", sans-serif;
     letter-spacing: 2px;
     min-height: 100vh;
+    text-align: center;
 
 
 }
@@ -20,71 +21,90 @@ height: auto;
 max-width: 200px;
 ;
 }
-.description {
-    display: block;
-    text-align: justify;
-    margin-top: 20px;
-    padding: 20px;
-    width: 310px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    font-size: 16
-;
-}
 
-.h2 {
+
+h2 {
     display: block;
-    text-align: center;
-    margin-top: 20px;
     padding: 20px;
     width: 310px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 15px auto;
     font-size: 16;
     text-transform: uppercase;
-font-weight: bold;
-letter-spacing: 4px;
+    letter-spacing: 4px;
         }
 
-.h3 {
+h3 {
     display: block;
-    text-align: center;
     margin-top: 10px;
-    padding: 1px;
+    margin-bottom: 10px;
+    padding: 2px;
     width: 310px;
     margin-left: auto;
     margin-right: auto;
     font-size: 12;}
+
+    h2 {
+    display: block;
+    padding: 20px;
+    width: 310px;
+    margin: 0 auto 15px auto;
+    font-size: 16;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+        }
+    
+h4 {
+    display: block;
+    padding: 2px;
+    width: 310px;
+    margin: 0 auto 15px auto;
+    font-size: 16;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.divflyer {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;}
+    
+    
     
 
-
 .flyer {
-    display: block;
+
+    width: 100%;
+    height: 100%;
+    max-width: 250px;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-   
-    max-width: 200px;
-    ;
+    transition: 0.5s;
+    object-fit:cover;
 }
 
-    .links {
+.flyer:hover{
+    
+    transform: scale(1.02); 
+}
+
+
+
+a {
+        display: block;
         text-align: center;
-        margin-top: 20px;
         border: 1px solid rgb(252, 0, 252);
         border-width: 2px;
-        padding: 20px;
-
+        padding: 12px 20px;
         width: 290px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-
+        margin: 0 auto 15px auto;
         border-radius: 0px;
-
-        font-size: 18px;
+        font-size: 16;
+        max-width: 400px;
+        
     }
 
     a {
@@ -100,6 +120,23 @@ letter-spacing: 4px;
         background-color: rgb(252, 0, 252);
     }
 
-    Footer © 2022 GitHub,
-    Inc. Footer navigation
+   
+
+    .redes {
+      
+            
+            
+        margin-left: auto;
+            margin-right: auto;
+            max-width: 340px;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            display: flex;
+
+            .a {
+               flex:1;
+            }
+            
+                
+
     
