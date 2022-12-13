@@ -4,7 +4,9 @@ font-size: 100%;
 body {
     background-color: black;
     color: white;
-    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-family: 'DDINExpRegular';
+    font-weight: normal;
+    font-style: normal;
     letter-spacing: 2px;
     min-height: 100vh;
     text-align: center;
