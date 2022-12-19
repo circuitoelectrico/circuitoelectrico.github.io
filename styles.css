@@ -22,7 +22,7 @@ margin-right: auto;
 margin-top: 10%;
 height: auto;
 max-width: 200px;
-;
+
 }
 
 
@@ -39,7 +39,7 @@ h2 {
 h3 {
     display: block;
     margin-top: 10px;
-    margin-bottom: 10px;
+    
     padding: 2px;
     width: 310px;
     margin-left: auto;
@@ -60,16 +60,19 @@ h4 {
 
 
 .flyer {
-display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    max-height: 200px;
+        margin-bottom: 10px;
+    height: auto;
     max-width: 200px;
-    ;
+    cursor: pointer;
 }
   
-
+.flyer:hover {
+    transform: scale(1.2);}
+    
 
 
 a {
@@ -105,17 +108,20 @@ a {
       
             
             
-        margin-left: auto;
-            margin-right: auto;
-            max-width: 340px;
-            padding: 10px 20px;
-            text-transform: uppercase;
-            display: flex;
-
-            .a {
-               flex:1;
-            }
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-transform: uppercase;
+    max-width: 100px;
+    padding: 5px 10px;
+    font-size: 6px;
+    font-size: 4px;
+    max-height: 100px;
+    display: flex;
+    
+        a {flex:1;}
             
+                }
                 
 
     
