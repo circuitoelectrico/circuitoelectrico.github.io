@@ -1,6 +1,7 @@
 html {box-sizing: border-box;
 font-size: 100%;
 }
+
 body {
     background-color: black;
     color: white;
@@ -11,32 +12,31 @@ body {
     min-height: 100vh;
     text-align: center;
 
-
 }
 
 
-.profile-picture {
+.profile {
 display: block;
-margin-left: auto;
-margin-right: auto;
 margin-top: 10%;
 height: auto;
 max-width: 200px;
 cursor: pointer;
-transition: 0.4s ease-in-out;
+transition: 0.6s ease-in-out;
+margin-left: auto;
+margin-right: auto;
 
 }
 
-.profile-picture:hover {
+.profile:hover {
     transform: scale(1.4);}
 
 
 h2 {
     display: block;
-    padding: 20px;
+    padding: 10px;
     width: 310px;
     margin: 0 auto 15px auto;
-    font-size: 16;
+    font-size: 14;
     text-transform: uppercase;
     letter-spacing: 4px;
         }
@@ -58,7 +58,7 @@ h4 {
     padding: 2px;
     width: 310px;
     margin: 0 auto 15px auto;
-    font-size: 16;
+    font-size: 14;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
@@ -69,17 +69,17 @@ h4 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-        margin-bottom: 10px;
+    margin-bottom: 10px;
     height: auto;
     max-width: 200px;
-    -webkit-transition: -webkit-transform 1s;
+    -webkit-transition: -webkit-transform 3s;
    
 }
   
 .flyer:hover {
     -webkit-transform: rotate(360deg) translate(0);
 }
-    
+   
 
 
 a {
@@ -88,47 +88,49 @@ a {
         border: 1px solid rgb(252, 0, 252);
         border-width: 2px;
         padding: 12px 20px;
-        width: 290px;
         margin: 0 auto 15px auto;
         border-radius: 0px;
-        font-size: 16;
-        max-width: 400px;
-        
-    }
-
-    a {
+        font-size: 22px;
+        max-width: 310px;
         text-decoration: none;
-
         color: white;
         transition: color 1s;
-    }
-
-    a:hover {
+        }
+        
+   
+ a:hover {
         
         color: black;
         background-color: rgb(252, 0, 252);
     }
 
    
+.link2 {
+    text-align: center;
+    font-size: 06px;
+    max-width: 310px;
+    text-decoration: none;
+    color: white;
+    border-width: 0px;
+  
 
-    .redes {
-      
-            
-            
+   
+}
+
+.redes {
+   
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
     text-transform: uppercase;
-    max-width: 100px;
-    padding: 5px 10px;
-    font-size: 6px;
-    font-size: 4px;
-    max-height: 100px;
+    max-width: 310px;
     display: flex;
     
-        a {flex:1;}
+    a {flex: 1;
+    }
+        
             
-                }
+               
                 
 
     
